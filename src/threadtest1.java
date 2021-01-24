@@ -13,7 +13,7 @@ class myrun1 implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(this.mark);
+        System.out.println(this.mark);//
     }
 }
 public class threadtest1 {
